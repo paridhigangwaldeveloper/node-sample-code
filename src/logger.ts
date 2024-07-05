@@ -22,7 +22,7 @@ const logTransports = [
     }),
   }),
 
-console.log("object");
+
   // Log debug messages to the console with pretty printing
   new transports.Console({
     level: 'debug',
