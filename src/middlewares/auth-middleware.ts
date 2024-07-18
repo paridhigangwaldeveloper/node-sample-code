@@ -8,7 +8,7 @@ import dotenv from 'dotenv';
 dotenv.config({
   path: '.env',
 });
-
+console.log("object")
 // Extract the secret key from environment variables
 const SECRET = process.env.SECRET as string;
 
