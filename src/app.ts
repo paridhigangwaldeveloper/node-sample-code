@@ -18,7 +18,7 @@ if (result.error) {
 const client = new OAuth2Client();
 
 
-
+console.log("object")
 
 // Create an Express application
 export const app: Express = express();
