@@ -17,7 +17,7 @@ if (result.error) {
 // Create a Google OAuth2 client
 const client = new OAuth2Client();
 
-console.log("object")
+
 // Create an Express application
 export const app: Express = express();
 
