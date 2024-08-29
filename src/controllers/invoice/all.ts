@@ -14,8 +14,6 @@ const allWragger: RequestHandler = async (req, res) => {
   const invoices = await Invoice.find();
   console.log("object")
   console.log("object")
-  
-  console.log("object")
   console.log("object")
  
   
