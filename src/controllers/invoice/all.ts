@@ -13,10 +13,6 @@ import moment from 'moment';
 const allWragger: RequestHandler = async (req, res) => {
   const invoices = await Invoice.find();
   console.log("object")
-  console.log("object")
-  console.log("object")
-  console.log("object")
- 
   const formattedInvoices = invoices.map((invoice) => ({
     ...invoice.toJSON(),
     paymentDue: moment(invoice.paymentDue).format('YYYY-MM-DD'),
