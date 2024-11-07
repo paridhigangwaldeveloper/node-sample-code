@@ -15,6 +15,7 @@ const allWragger: RequestHandler = async (req, res) => {
   console.log("object")
   console.log("object")
   console.log("object")
+  console.log("object")
   const formattedInvoices = invoices.map((invoice) => ({
     ...invoice.toJSON(),
     paymentDue: moment(invoice.paymentDue).format('YYYY-MM-DD'),
